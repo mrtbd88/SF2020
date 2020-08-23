@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <test name="Booking.com Regression Test Suite(failed)">
+    <classes>
+      <class name="test_register.NewRegisterTest">
+        <methods>
+          <include name="registerWithNewEmailTest"/>
+        </methods>
+      </class> <!-- test_register.NewRegisterTest -->
+      <class name="test_signIn.LoginWithValidCredentialUsingEmail">
+        <methods>
+          <include name="loginWithValidCredentialUsingEmailTest"/>
+          <include name="startTestSuite"/>
+        </methods>
+      </class> <!-- test_signIn.LoginWithValidCredentialUsingEmail -->
+    </classes>
+  </test> <!-- Booking.com Regression Test Suite(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

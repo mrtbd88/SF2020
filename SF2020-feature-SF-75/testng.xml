@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test_signIn.VerifyUserFullName"/>
+      <class name="test_signIn.LoginWithValidCredentialUsingEmail"/>
+      <class name="test_register.NewRegisterTest"/>
+      <class name="base.Config"/>
+      <class name="test_register.Gropping"/>
+      <class name="test_signIn.LoginWithInvalidCredentialUsingEmailTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
