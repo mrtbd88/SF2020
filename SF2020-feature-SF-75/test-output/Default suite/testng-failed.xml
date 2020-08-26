@@ -3,15 +3,6 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test_signIn.LoginWithInvalidCredentialUsingEmailTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="beforeEachTestMethod"/>
-          <include name="afterEachTestMethod"/>
-          <include name="loginwithInvalidPasswordTest"/>
-          <include name="startTestSuite"/>
-        </methods>
-      </class> <!-- test_signIn.LoginWithInvalidCredentialUsingEmailTest -->
       <class name="test_signIn.VerifyUserFullName">
         <methods>
           <include name="tearDown"/>
@@ -30,24 +21,13 @@
           <include name="startTestSuite"/>
         </methods>
       </class> <!-- test_signIn.LoginWithValidCredentialUsingEmail -->
-      <class name="test_register.NewRegisterTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="beforeEachTestMethod"/>
-          <include name="afterEachTestMethod"/>
-          <include name="registerWithNewEmailTest"/>
-          <include name="startTestSuite"/>
-        </methods>
-      </class> <!-- test_register.NewRegisterTest -->
       <class name="test_register.Gropping">
         <methods>
           <include name="tearDown"/>
           <include name="signUp"/>
           <include name="beforeEachTestMethod"/>
           <include name="verifyHomePage"/>
-          <include name="loginTest"/>
           <include name="afterEachTestMethod"/>
-          <include name="loginWithEmail"/>
           <include name="startTestSuite"/>
           <include name="loginWithFacebook"/>
         </methods>
