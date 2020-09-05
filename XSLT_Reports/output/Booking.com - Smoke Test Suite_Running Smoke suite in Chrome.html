@@ -18,23 +18,23 @@
                <b>Running Smoke suite in Chrome</b>
             </td>
             <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
-               <div style="width: 50px;">0</div>
+               <div style="width: 50px;">1</div>
             </td>
             <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
-               <div style="width: 50px;">2</div>
+               <div style="width: 50px;">0</div>
             </td>
             <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
-               <div style="width: 50px;">0</div>
+               <div style="width: 50px;">1</div>
             </td>
             <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
                <div style="width: 50px;">2</div>
             </td>
             <td align="center"
                 style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
-               <div style="width: 50px;">100%</div>
+               <div style="width: 50px;">0%</div>
             </td>
             <td style="background-color: #eaf0f7; padding: 3px 3px 3px 0;" align="center"
-                nowrap="true">32s
+                nowrap="true">16s
                
             </td>
          </tr>
@@ -89,12 +89,249 @@
                <td nowrap="true">Duration</td>
                <td>Exception</td>
             </tr>
-            <tr id="test_register.NewRegisterTest_beforeEachTestMethod_byStatus_passed_PASS1_row"
+            <tr id="test_signIn.VerifyUserFullName_userFullNameTest_byStatus_failed_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_userFullNameTest_byStatus_failed_FAIL1_details')">userFullNameTest()</a>
+               </td>
+               <td nowrap="true">19:08:40</td>
+               <td nowrap="true" align="right">8s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_userFullNameTest_byStatus_failed_FAIL1_exception')">org.openqa.selenium.NoSuchElementException: 
+                     Cannot locate an element using xpath=//*[@id='root']/div/div[2]/div/div[1]/div[2]/div/div/div/form/div[3]/button
+                     For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                     System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                     '1.8.0_261'
+                     Driver info: driver.version: RemoteWebDriver
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="test_signIn.VerifyUserFullName_userFullNameTest_byStatus_failed_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>userFullNameTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>userFullNameTest()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:08:40
+                     </div>
+                     <div>
+                        <b>End time: </b>19:08:47
+                     </div>
+                     <div>
+                        <b>Duration: </b>8s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="test_signIn.VerifyUserFullName_userFullNameTest_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[@id='root']/div/div[2]/div/div[1]/div[2]/div/div/div/form/div[3]/button
+                        For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                        System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                        '1.8.0_261'
+                        Driver info: driver.version: RemoteWebDriver
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+                        	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+                        	at base.WDFunctions.clickByXpath(WDFunctions.java:39)
+                        	at test_signIn.VerifyUserFullName.userFullNameTest(VerifyUserFullName.java:25)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="test_signIn.VerifyUserFullName_afterEachTestMethod_byStatus_failed_FAIL2_row"
+                class="testMethodStatusFAIL testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_afterEachTestMethod_byStatus_failed_FAIL2_details')">afterEachTestMethod()</a>
+               </td>
+               <td nowrap="true">19:08:47</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_afterEachTestMethod_byStatus_failed_FAIL2_exception')">org.openqa.selenium.WebDriverException: 
+                     chrome not reachable
+                     (Session info: chrome=85.0.4183.83)
+                     Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                     System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                     '1.8.0_261'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion:
+                     85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MAHFUJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55313},
+                     javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS,
+                     proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                     unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+                     Session ID: 2a7d440f06626e8411cb2e483e226a21
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="test_signIn.VerifyUserFullName_afterEachTestMethod_byStatus_failed_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterEachTestMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterEachTestMethod()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:08:47
+                     </div>
+                     <div>
+                        <b>End time: </b>19:08:47
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="test_signIn.VerifyUserFullName_afterEachTestMethod_byStatus_failed_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.WebDriverException: chrome not reachable
+                        (Session info: chrome=85.0.4183.83)
+                        Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                        System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                        '1.8.0_261'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion:
+                        85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MAHFUJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55313},
+                        javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS,
+                        proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                        unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+                        Session ID: 2a7d440f06626e8411cb2e483e226a21
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+                        	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+                        	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+                        	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+                        	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+                        	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+                        	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+                        	at base.Config.afterEachTestMethod(Config.java:49)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+                        	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="test_signIn.VerifyUserFullName_startTestSuite_byStatus_passed_PASS1_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('test_register.NewRegisterTest_beforeEachTestMethod_byStatus_passed_PASS1_details')">beforeEachTestMethod(CH)</a>
+                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_startTestSuite_byStatus_passed_PASS1_details')">startTestSuite()</a>
                </td>
-               <td nowrap="true">17:56:14</td>
+               <td nowrap="true">19:07:51</td>
+               <td nowrap="true" align="right">37 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="test_signIn.VerifyUserFullName_startTestSuite_byStatus_passed_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>startTestSuite
+                     </div>
+                     <div>
+                        <b>Signature: </b>startTestSuite()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:07:51
+                     </div>
+                     <div>
+                        <b>End time: </b>19:07:51
+                     </div>
+                     <div>
+                        <b>Duration: </b>37 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="test_signIn.VerifyUserFullName_beforeEachTestMethod_byStatus_passed_PASS2_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_beforeEachTestMethod_byStatus_passed_PASS2_details')">beforeEachTestMethod()</a>
+               </td>
+               <td nowrap="true">19:08:32</td>
                <td nowrap="true" align="right">8s
                   
                </td>
@@ -105,26 +342,19 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="test_register.NewRegisterTest_beforeEachTestMethod_byStatus_passed_PASS1_details"
+                  <div id="test_signIn.VerifyUserFullName_beforeEachTestMethod_byStatus_passed_PASS2_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>beforeEachTestMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeEachTestMethod(java.lang.String)[pri:0, instance:test_register.NewRegisterTest@75412c2f]
+                        <b>Signature: </b>beforeEachTestMethod()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]
                      </div>
                      <div>
-                        <b>Parameters: </b>
-                        
-                        CH
-                        
-                        
+                        <b>Start time: </b>19:08:32
                      </div>
                      <div>
-                        <b>Start time: </b>17:56:14
-                     </div>
-                     <div>
-                        <b>End time: </b>17:56:22
+                        <b>End time: </b>19:08:40
                      </div>
                      <div>
                         <b>Duration: </b>8s
@@ -134,12 +364,12 @@
                </td>
             </tr>
             <tr></tr>
-            <tr id="test_register.NewRegisterTest_registerWithNewEmailTest_byStatus_passed_PASS2_row"
-                class="testMethodStatusPASS">
+            <tr id="test_register.NewRegisterTest_beforeEachTestMethod_byStatus_skiped_SKIP1_row"
+                class="testMethodStatusSKIP testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('test_register.NewRegisterTest_registerWithNewEmailTest_byStatus_passed_PASS2_details')">registerWithNewEmailTest()</a>
+                  <a onclick="toggleDetailsVisibility('test_register.NewRegisterTest_beforeEachTestMethod_byStatus_skiped_SKIP1_details')">beforeEachTestMethod()</a>
                </td>
-               <td nowrap="true">17:56:22</td>
+               <td nowrap="true">19:08:48</td>
                <td nowrap="true" align="right">0 ms
                   
                </td>
@@ -150,19 +380,19 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="test_register.NewRegisterTest_registerWithNewEmailTest_byStatus_passed_PASS2_details"
+                  <div id="test_register.NewRegisterTest_beforeEachTestMethod_byStatus_skiped_SKIP1_details"
                        class="testMethodDetails">
                      <div>
-                        <b>Name: </b>registerWithNewEmailTest
+                        <b>Name: </b>beforeEachTestMethod
                      </div>
                      <div>
-                        <b>Signature: </b>registerWithNewEmailTest()[pri:0, instance:test_register.NewRegisterTest@75412c2f]
+                        <b>Signature: </b>beforeEachTestMethod()[pri:0, instance:test_register.NewRegisterTest@1c53fd30]
                      </div>
                      <div>
-                        <b>Start time: </b>17:56:22
+                        <b>Start time: </b>19:08:48
                      </div>
                      <div>
-                        <b>End time: </b>17:56:22
+                        <b>End time: </b>19:08:48
                      </div>
                      <div>
                         <b>Duration: </b>0 ms
@@ -172,209 +402,12 @@
                </td>
             </tr>
             <tr></tr>
-            <tr id="test_register.NewRegisterTest_afterEachTestMethod_byStatus_passed_PASS3_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
+            <tr id="test_register.NewRegisterTest_registerWithNewEmailTest_byStatus_skiped_SKIP2_row"
+                class="testMethodStatusSKIP">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('test_register.NewRegisterTest_afterEachTestMethod_byStatus_passed_PASS3_details')">afterEachTestMethod()</a>
+                  <a onclick="toggleDetailsVisibility('test_register.NewRegisterTest_registerWithNewEmailTest_byStatus_skiped_SKIP2_details')">registerWithNewEmailTest()</a>
                </td>
-               <td nowrap="true">17:56:22</td>
-               <td nowrap="true" align="right">4s
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="test_register.NewRegisterTest_afterEachTestMethod_byStatus_passed_PASS3_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>afterEachTestMethod
-                     </div>
-                     <div>
-                        <b>Signature: </b>afterEachTestMethod()[pri:0, instance:test_register.NewRegisterTest@75412c2f]
-                     </div>
-                     <div>
-                        <b>Start time: </b>17:56:22
-                     </div>
-                     <div>
-                        <b>End time: </b>17:56:27
-                     </div>
-                     <div>
-                        <b>Duration: </b>4s
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="test_signIn.VerifyUserFullName_startTestSuite_byStatus_passed_PASS4_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_startTestSuite_byStatus_passed_PASS4_details')">startTestSuite()</a>
-               </td>
-               <td nowrap="true">17:55:22</td>
-               <td nowrap="true" align="right">51 ms
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="test_signIn.VerifyUserFullName_startTestSuite_byStatus_passed_PASS4_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>startTestSuite
-                     </div>
-                     <div>
-                        <b>Signature: </b>startTestSuite()[pri:0, instance:test_signIn.VerifyUserFullName@50cbc42f]
-                     </div>
-                     <div>
-                        <b>Start time: </b>17:55:22
-                     </div>
-                     <div>
-                        <b>End time: </b>17:55:22
-                     </div>
-                     <div>
-                        <b>Duration: </b>51 ms
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="test_signIn.VerifyUserFullName_beforeEachTestMethod_byStatus_passed_PASS5_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_beforeEachTestMethod_byStatus_passed_PASS5_details')">beforeEachTestMethod(CH)</a>
-               </td>
-               <td nowrap="true">17:55:54</td>
-               <td nowrap="true" align="right">9s
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="test_signIn.VerifyUserFullName_beforeEachTestMethod_byStatus_passed_PASS5_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>beforeEachTestMethod
-                     </div>
-                     <div>
-                        <b>Signature: </b>beforeEachTestMethod(java.lang.String)[pri:0, instance:test_signIn.VerifyUserFullName@50cbc42f]
-                     </div>
-                     <div>
-                        <b>Parameters: </b>
-                        
-                        CH
-                        
-                        
-                     </div>
-                     <div>
-                        <b>Start time: </b>17:55:54
-                     </div>
-                     <div>
-                        <b>End time: </b>17:56:03
-                     </div>
-                     <div>
-                        <b>Duration: </b>9s
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="test_signIn.VerifyUserFullName_userFullNameTest_byStatus_passed_PASS6_row"
-                class="testMethodStatusPASS">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_userFullNameTest_byStatus_passed_PASS6_details')">userFullNameTest()</a>
-               </td>
-               <td nowrap="true">17:56:03</td>
-               <td nowrap="true" align="right">7s
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="test_signIn.VerifyUserFullName_userFullNameTest_byStatus_passed_PASS6_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>userFullNameTest
-                     </div>
-                     <div>
-                        <b>Signature: </b>userFullNameTest()[pri:0, instance:test_signIn.VerifyUserFullName@50cbc42f]
-                     </div>
-                     <div>
-                        <b>Start time: </b>17:56:03
-                     </div>
-                     <div>
-                        <b>End time: </b>17:56:10
-                     </div>
-                     <div>
-                        <b>Duration: </b>7s
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="test_signIn.VerifyUserFullName_afterEachTestMethod_byStatus_passed_PASS7_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_afterEachTestMethod_byStatus_passed_PASS7_details')">afterEachTestMethod()</a>
-               </td>
-               <td nowrap="true">17:56:10</td>
-               <td nowrap="true" align="right">4s
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="test_signIn.VerifyUserFullName_afterEachTestMethod_byStatus_passed_PASS7_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>afterEachTestMethod
-                     </div>
-                     <div>
-                        <b>Signature: </b>afterEachTestMethod()[pri:0, instance:test_signIn.VerifyUserFullName@50cbc42f]
-                     </div>
-                     <div>
-                        <b>Start time: </b>17:56:10
-                     </div>
-                     <div>
-                        <b>End time: </b>17:56:14
-                     </div>
-                     <div>
-                        <b>Duration: </b>4s
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="test_signIn.VerifyUserFullName_tearDown_byStatus_passed_PASS8_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_tearDown_byStatus_passed_PASS8_details')">tearDown()</a>
-               </td>
-               <td nowrap="true">17:56:27</td>
+               <td nowrap="true">19:08:48</td>
                <td nowrap="true" align="right">0 ms
                   
                </td>
@@ -385,19 +418,95 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="test_signIn.VerifyUserFullName_tearDown_byStatus_passed_PASS8_details"
+                  <div id="test_register.NewRegisterTest_registerWithNewEmailTest_byStatus_skiped_SKIP2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>registerWithNewEmailTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>registerWithNewEmailTest()[pri:0, instance:test_register.NewRegisterTest@1c53fd30]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:08:48
+                     </div>
+                     <div>
+                        <b>End time: </b>19:08:48
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="test_register.NewRegisterTest_afterEachTestMethod_byStatus_skiped_SKIP3_row"
+                class="testMethodStatusSKIP testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('test_register.NewRegisterTest_afterEachTestMethod_byStatus_skiped_SKIP3_details')">afterEachTestMethod()</a>
+               </td>
+               <td nowrap="true">19:08:48</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="test_register.NewRegisterTest_afterEachTestMethod_byStatus_skiped_SKIP3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterEachTestMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterEachTestMethod()[pri:0, instance:test_register.NewRegisterTest@1c53fd30]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:08:48
+                     </div>
+                     <div>
+                        <b>End time: </b>19:08:48
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="test_signIn.VerifyUserFullName_tearDown_byStatus_skiped_SKIP4_row"
+                class="testMethodStatusSKIP testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_tearDown_byStatus_skiped_SKIP4_details')">tearDown()</a>
+               </td>
+               <td nowrap="true">19:08:48</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="test_signIn.VerifyUserFullName_tearDown_byStatus_skiped_SKIP4_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>tearDown
                      </div>
                      <div>
-                        <b>Signature: </b>tearDown()[pri:0, instance:test_signIn.VerifyUserFullName@50cbc42f]
+                        <b>Signature: </b>tearDown()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]
                      </div>
                      <div>
-                        <b>Start time: </b>17:56:27
+                        <b>Start time: </b>19:08:48
                      </div>
                      <div>
-                        <b>End time: </b>17:56:27
+                        <b>End time: </b>19:08:48
                      </div>
                      <div>
                         <b>Duration: </b>0 ms
@@ -422,57 +531,12 @@
                <td nowrap="true">Duration</td>
                <td>Exception</td>
             </tr>
-            <tr id="test_register.NewRegisterTest_beforeEachTestMethod_byClass_PASS1_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
+            <tr id="test_register.NewRegisterTest_beforeEachTestMethod_byClass_SKIP1_row"
+                class="testMethodStatusSKIP testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('test_register.NewRegisterTest_beforeEachTestMethod_byClass_PASS1_details')">beforeEachTestMethod(CH)</a>
+                  <a onclick="toggleDetailsVisibility('test_register.NewRegisterTest_beforeEachTestMethod_byClass_SKIP1_details')">beforeEachTestMethod()</a>
                </td>
-               <td nowrap="true">17:56:14</td>
-               <td nowrap="true" align="right">8s
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="test_register.NewRegisterTest_beforeEachTestMethod_byClass_PASS1_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>beforeEachTestMethod
-                     </div>
-                     <div>
-                        <b>Signature: </b>beforeEachTestMethod(java.lang.String)[pri:0, instance:test_register.NewRegisterTest@75412c2f]
-                     </div>
-                     <div>
-                        <b>Parameters: </b>
-                        
-                        CH
-                        
-                        
-                     </div>
-                     <div>
-                        <b>Start time: </b>17:56:14
-                     </div>
-                     <div>
-                        <b>End time: </b>17:56:22
-                     </div>
-                     <div>
-                        <b>Duration: </b>8s
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="test_register.NewRegisterTest_registerWithNewEmailTest_byClass_PASS2_row"
-                class="testMethodStatusPASS">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('test_register.NewRegisterTest_registerWithNewEmailTest_byClass_PASS2_details')">registerWithNewEmailTest()</a>
-               </td>
-               <td nowrap="true">17:56:22</td>
+               <td nowrap="true">19:08:48</td>
                <td nowrap="true" align="right">0 ms
                   
                </td>
@@ -483,19 +547,19 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="test_register.NewRegisterTest_registerWithNewEmailTest_byClass_PASS2_details"
+                  <div id="test_register.NewRegisterTest_beforeEachTestMethod_byClass_SKIP1_details"
                        class="testMethodDetails">
                      <div>
-                        <b>Name: </b>registerWithNewEmailTest
+                        <b>Name: </b>beforeEachTestMethod
                      </div>
                      <div>
-                        <b>Signature: </b>registerWithNewEmailTest()[pri:0, instance:test_register.NewRegisterTest@75412c2f]
+                        <b>Signature: </b>beforeEachTestMethod()[pri:0, instance:test_register.NewRegisterTest@1c53fd30]
                      </div>
                      <div>
-                        <b>Start time: </b>17:56:22
+                        <b>Start time: </b>19:08:48
                      </div>
                      <div>
-                        <b>End time: </b>17:56:22
+                        <b>End time: </b>19:08:48
                      </div>
                      <div>
                         <b>Duration: </b>0 ms
@@ -505,13 +569,13 @@
                </td>
             </tr>
             <tr></tr>
-            <tr id="test_register.NewRegisterTest_afterEachTestMethod_byClass_PASS3_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
+            <tr id="test_register.NewRegisterTest_registerWithNewEmailTest_byClass_SKIP2_row"
+                class="testMethodStatusSKIP">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('test_register.NewRegisterTest_afterEachTestMethod_byClass_PASS3_details')">afterEachTestMethod()</a>
+                  <a onclick="toggleDetailsVisibility('test_register.NewRegisterTest_registerWithNewEmailTest_byClass_SKIP2_details')">registerWithNewEmailTest()</a>
                </td>
-               <td nowrap="true">17:56:22</td>
-               <td nowrap="true" align="right">4s
+               <td nowrap="true">19:08:48</td>
+               <td nowrap="true" align="right">0 ms
                   
                </td>
                <td nowrap="true">
@@ -521,22 +585,60 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="test_register.NewRegisterTest_afterEachTestMethod_byClass_PASS3_details"
+                  <div id="test_register.NewRegisterTest_registerWithNewEmailTest_byClass_SKIP2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>registerWithNewEmailTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>registerWithNewEmailTest()[pri:0, instance:test_register.NewRegisterTest@1c53fd30]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:08:48
+                     </div>
+                     <div>
+                        <b>End time: </b>19:08:48
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="test_register.NewRegisterTest_afterEachTestMethod_byClass_SKIP3_row"
+                class="testMethodStatusSKIP testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('test_register.NewRegisterTest_afterEachTestMethod_byClass_SKIP3_details')">afterEachTestMethod()</a>
+               </td>
+               <td nowrap="true">19:08:48</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="test_register.NewRegisterTest_afterEachTestMethod_byClass_SKIP3_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>afterEachTestMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterEachTestMethod()[pri:0, instance:test_register.NewRegisterTest@75412c2f]
+                        <b>Signature: </b>afterEachTestMethod()[pri:0, instance:test_register.NewRegisterTest@1c53fd30]
                      </div>
                      <div>
-                        <b>Start time: </b>17:56:22
+                        <b>Start time: </b>19:08:48
                      </div>
                      <div>
-                        <b>End time: </b>17:56:27
+                        <b>End time: </b>19:08:48
                      </div>
                      <div>
-                        <b>Duration: </b>4s
+                        <b>Duration: </b>0 ms
                         
                      </div>
                   </div>
@@ -562,8 +664,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_startTestSuite_byClass_PASS1_details')">startTestSuite()</a>
                </td>
-               <td nowrap="true">17:55:22</td>
-               <td nowrap="true" align="right">51 ms
+               <td nowrap="true">19:07:51</td>
+               <td nowrap="true" align="right">37 ms
                   
                </td>
                <td nowrap="true">
@@ -579,16 +681,16 @@
                         <b>Name: </b>startTestSuite
                      </div>
                      <div>
-                        <b>Signature: </b>startTestSuite()[pri:0, instance:test_signIn.VerifyUserFullName@50cbc42f]
+                        <b>Signature: </b>startTestSuite()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]
                      </div>
                      <div>
-                        <b>Start time: </b>17:55:22
+                        <b>Start time: </b>19:07:51
                      </div>
                      <div>
-                        <b>End time: </b>17:55:22
+                        <b>End time: </b>19:07:51
                      </div>
                      <div>
-                        <b>Duration: </b>51 ms
+                        <b>Duration: </b>37 ms
                         
                      </div>
                   </div>
@@ -598,10 +700,10 @@
             <tr id="test_signIn.VerifyUserFullName_beforeEachTestMethod_byClass_PASS2_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_beforeEachTestMethod_byClass_PASS2_details')">beforeEachTestMethod(CH)</a>
+                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_beforeEachTestMethod_byClass_PASS2_details')">beforeEachTestMethod()</a>
                </td>
-               <td nowrap="true">17:55:54</td>
-               <td nowrap="true" align="right">9s
+               <td nowrap="true">19:08:32</td>
+               <td nowrap="true" align="right">8s
                   
                </td>
                <td nowrap="true">
@@ -617,111 +719,227 @@
                         <b>Name: </b>beforeEachTestMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeEachTestMethod(java.lang.String)[pri:0, instance:test_signIn.VerifyUserFullName@50cbc42f]
+                        <b>Signature: </b>beforeEachTestMethod()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]
                      </div>
                      <div>
-                        <b>Parameters: </b>
-                        
-                        CH
-                        
-                        
+                        <b>Start time: </b>19:08:32
                      </div>
                      <div>
-                        <b>Start time: </b>17:55:54
+                        <b>End time: </b>19:08:40
                      </div>
                      <div>
-                        <b>End time: </b>17:56:03
-                     </div>
-                     <div>
-                        <b>Duration: </b>9s
+                        <b>Duration: </b>8s
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="test_signIn.VerifyUserFullName_userFullNameTest_byClass_PASS3_row"
-                class="testMethodStatusPASS">
+            <tr id="test_signIn.VerifyUserFullName_userFullNameTest_byClass_FAIL3_row"
+                class="testMethodStatusFAIL">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_userFullNameTest_byClass_PASS3_details')">userFullNameTest()</a>
+                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_userFullNameTest_byClass_FAIL3_details')">userFullNameTest()</a>
                </td>
-               <td nowrap="true">17:56:03</td>
-               <td nowrap="true" align="right">7s
+               <td nowrap="true">19:08:40</td>
+               <td nowrap="true" align="right">8s
                   
                </td>
                <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_userFullNameTest_byClass_FAIL3_exception')">org.openqa.selenium.NoSuchElementException: 
+                     Cannot locate an element using xpath=//*[@id='root']/div/div[2]/div/div[1]/div[2]/div/div/div/form/div[3]/button
+                     For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                     System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                     '1.8.0_261'
+                     Driver info: driver.version: RemoteWebDriver
+                     
+                  </a>
                    
                   
                </td>
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="test_signIn.VerifyUserFullName_userFullNameTest_byClass_PASS3_details"
+                  <div id="test_signIn.VerifyUserFullName_userFullNameTest_byClass_FAIL3_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>userFullNameTest
                      </div>
                      <div>
-                        <b>Signature: </b>userFullNameTest()[pri:0, instance:test_signIn.VerifyUserFullName@50cbc42f]
+                        <b>Signature: </b>userFullNameTest()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]
                      </div>
                      <div>
-                        <b>Start time: </b>17:56:03
+                        <b>Start time: </b>19:08:40
                      </div>
                      <div>
-                        <b>End time: </b>17:56:10
+                        <b>End time: </b>19:08:47
                      </div>
                      <div>
-                        <b>Duration: </b>7s
+                        <b>Duration: </b>8s
                         
                      </div>
                   </div>
                </td>
             </tr>
-            <tr></tr>
-            <tr id="test_signIn.VerifyUserFullName_afterEachTestMethod_byClass_PASS4_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_afterEachTestMethod_byClass_PASS4_details')">afterEachTestMethod()</a>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="test_signIn.VerifyUserFullName_userFullNameTest_byClass_FAIL3_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[@id='root']/div/div[2]/div/div[1]/div[2]/div/div/div/form/div[3]/button
+                        For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                        System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                        '1.8.0_261'
+                        Driver info: driver.version: RemoteWebDriver
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+                        	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+                        	at base.WDFunctions.clickByXpath(WDFunctions.java:39)
+                        	at test_signIn.VerifyUserFullName.userFullNameTest(VerifyUserFullName.java:25)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
                </td>
-               <td nowrap="true">17:56:10</td>
-               <td nowrap="true" align="right">4s
+            </tr>
+            <tr id="test_signIn.VerifyUserFullName_afterEachTestMethod_byClass_FAIL4_row"
+                class="testMethodStatusFAIL testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_afterEachTestMethod_byClass_FAIL4_details')">afterEachTestMethod()</a>
+               </td>
+               <td nowrap="true">19:08:47</td>
+               <td nowrap="true" align="right">0 ms
                   
                </td>
                <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_afterEachTestMethod_byClass_FAIL4_exception')">org.openqa.selenium.WebDriverException: 
+                     chrome not reachable
+                     (Session info: chrome=85.0.4183.83)
+                     Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                     System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                     '1.8.0_261'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion:
+                     85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MAHFUJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55313},
+                     javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS,
+                     proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                     unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+                     Session ID: 2a7d440f06626e8411cb2e483e226a21
+                     
+                  </a>
                    
                   
                </td>
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="test_signIn.VerifyUserFullName_afterEachTestMethod_byClass_PASS4_details"
+                  <div id="test_signIn.VerifyUserFullName_afterEachTestMethod_byClass_FAIL4_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>afterEachTestMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterEachTestMethod()[pri:0, instance:test_signIn.VerifyUserFullName@50cbc42f]
+                        <b>Signature: </b>afterEachTestMethod()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]
                      </div>
                      <div>
-                        <b>Start time: </b>17:56:10
+                        <b>Start time: </b>19:08:47
                      </div>
                      <div>
-                        <b>End time: </b>17:56:14
+                        <b>End time: </b>19:08:47
                      </div>
                      <div>
-                        <b>Duration: </b>4s
+                        <b>Duration: </b>0 ms
                         
                      </div>
                   </div>
                </td>
             </tr>
-            <tr></tr>
-            <tr id="test_signIn.VerifyUserFullName_tearDown_byClass_PASS5_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_tearDown_byClass_PASS5_details')">tearDown()</a>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="test_signIn.VerifyUserFullName_afterEachTestMethod_byClass_FAIL4_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.WebDriverException: chrome not reachable
+                        (Session info: chrome=85.0.4183.83)
+                        Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                        System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                        '1.8.0_261'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion:
+                        85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MAHFUJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55313},
+                        javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS,
+                        proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                        unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+                        Session ID: 2a7d440f06626e8411cb2e483e226a21
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+                        	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+                        	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+                        	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+                        	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+                        	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+                        	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+                        	at base.Config.afterEachTestMethod(Config.java:49)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+                        	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
                </td>
-               <td nowrap="true">17:56:27</td>
+            </tr>
+            <tr id="test_signIn.VerifyUserFullName_tearDown_byClass_SKIP5_row"
+                class="testMethodStatusSKIP testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('test_signIn.VerifyUserFullName_tearDown_byClass_SKIP5_details')">tearDown()</a>
+               </td>
+               <td nowrap="true">19:08:48</td>
                <td nowrap="true" align="right">0 ms
                   
                </td>
@@ -732,19 +950,19 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="test_signIn.VerifyUserFullName_tearDown_byClass_PASS5_details"
+                  <div id="test_signIn.VerifyUserFullName_tearDown_byClass_SKIP5_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>tearDown
                      </div>
                      <div>
-                        <b>Signature: </b>tearDown()[pri:0, instance:test_signIn.VerifyUserFullName@50cbc42f]
+                        <b>Signature: </b>tearDown()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]
                      </div>
                      <div>
-                        <b>Start time: </b>17:56:27
+                        <b>Start time: </b>19:08:48
                      </div>
                      <div>
-                        <b>End time: </b>17:56:27
+                        <b>End time: </b>19:08:48
                      </div>
                      <div>
                         <b>Duration: </b>0 ms

@@ -19,6 +19,7 @@ public class WDFunctions {
 	}
 	
 	// --------------------- EDIT BOX / TYPE -----------------------
+	//https://www.expedia.com/
 	public void typeByXpath(String loc, String val){
 		driver.findElement(By.xpath(loc)).clear();
 		driver.findElement(By.xpath(loc)).sendKeys(val);
