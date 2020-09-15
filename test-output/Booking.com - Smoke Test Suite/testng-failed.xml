@@ -10,6 +10,7 @@
           <include name="beforeEachTestMethod"/>
           <include name="beforeEachTestMethod"/>
           <include name="afterEachTestMethod"/>
+          <include name="afterEachTestMethod"/>
           <include name="startTestSuite"/>
           <include name="userFullNameTest"/>
         </methods>
@@ -28,6 +29,7 @@
         <methods>
           <include name="beforeEachTestMethod"/>
           <include name="beforeEachTestMethod"/>
+          <include name="afterEachTestMethod"/>
           <include name="afterEachTestMethod"/>
           <include name="startTestSuite"/>
           <include name="userFullNameTest"/>

@@ -7,16 +7,16 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/SF2020-feature-SF-75/jars/byte-buddy-1.8.15.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/SF2020-feature-SF-75/jars/client-combined-3.141.59.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/SF2020-feature-SF-75/jars/client-combined-3.141.59-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/SF2020-feature-SF-75/jars/commons-exec-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/SF2020-feature-SF-75/jars/guava-25.0-jre.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/SF2020-feature-SF-75/jars/jcommander-1.48.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/SF2020-feature-SF-75/jars/okhttp-3.11.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/SF2020-feature-SF-75/jars/okio-1.14.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/SF2020-feature-SF-75/jars/saxon-8.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/SF2020-feature-SF-75/jars/SaxonLiaison.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/SF2020-feature-SF-75/jars/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/jars/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/jars/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/jars/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/jars/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/jars/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/jars/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/jars/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/jars/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/jars/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/jars/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mahfuj Tuhin/eclipse-workspace/SF2020/jars/testng-6.9.9.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
