@@ -2,43 +2,43 @@
 <testng-results skipped="2" failed="2" total="4" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Booking.com - Smoke Test Suite" duration-ms="56707" started-at="2020-09-01T23:07:51Z" finished-at="2020-09-01T23:08:48Z">
+  <suite name="Booking.com - Smoke Test Suite" duration-ms="56364" started-at="2020-09-10T21:51:39Z" finished-at="2020-09-10T21:52:36Z">
     <groups>
     </groups>
-    <test name="Running Smoke suite in firefox" duration-ms="40732" started-at="2020-09-01T23:07:51Z" finished-at="2020-09-01T23:08:32Z">
+    <test name="Running Smoke suite in firefox" duration-ms="39409" started-at="2020-09-10T21:51:39Z" finished-at="2020-09-10T21:52:19Z">
       <class name="test_register.NewRegisterTest">
-        <test-method status="SKIP" signature="beforeEachTestMethod()[pri:0, instance:test_register.NewRegisterTest@5d3411d]" name="beforeEachTestMethod" is-config="true" duration-ms="0" started-at="2020-09-01T19:08:32Z" finished-at="2020-09-01T19:08:32Z">
+        <test-method status="SKIP" signature="beforeEachTestMethod()[pri:0, instance:test_register.NewRegisterTest@5d3411d]" name="beforeEachTestMethod" is-config="true" duration-ms="0" started-at="2020-09-10T17:52:19Z" finished-at="2020-09-10T17:52:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTestMethod -->
-        <test-method status="SKIP" signature="afterEachTestMethod()[pri:0, instance:test_register.NewRegisterTest@5d3411d]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2020-09-01T19:08:32Z" finished-at="2020-09-01T19:08:32Z">
+        <test-method status="SKIP" signature="afterEachTestMethod()[pri:0, instance:test_register.NewRegisterTest@5d3411d]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2020-09-10T17:52:19Z" finished-at="2020-09-10T17:52:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="registerWithNewEmailTest()[pri:0, instance:test_register.NewRegisterTest@5d3411d]" name="registerWithNewEmailTest" duration-ms="0" started-at="2020-09-01T19:08:32Z" finished-at="2020-09-01T19:08:32Z">
+        <test-method status="SKIP" signature="registerWithNewEmailTest()[pri:0, instance:test_register.NewRegisterTest@5d3411d]" name="registerWithNewEmailTest" duration-ms="0" started-at="2020-09-10T17:52:19Z" finished-at="2020-09-10T17:52:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerWithNewEmailTest -->
       </class> <!-- test_register.NewRegisterTest -->
       <class name="test_signIn.VerifyUserFullName">
-        <test-method status="PASS" signature="beforeEachTestMethod()[pri:0, instance:test_signIn.VerifyUserFullName@67117f44]" name="beforeEachTestMethod" is-config="true" duration-ms="18592" started-at="2020-09-01T19:07:51Z" finished-at="2020-09-01T19:08:09Z">
+        <test-method status="PASS" signature="beforeEachTestMethod()[pri:0, instance:test_signIn.VerifyUserFullName@67117f44]" name="beforeEachTestMethod" is-config="true" duration-ms="17549" started-at="2020-09-10T17:51:39Z" finished-at="2020-09-10T17:51:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTestMethod -->
-        <test-method status="FAIL" signature="userFullNameTest()[pri:0, instance:test_signIn.VerifyUserFullName@67117f44]" name="userFullNameTest" duration-ms="18091" started-at="2020-09-01T19:08:09Z" finished-at="2020-09-01T19:08:28Z">
+        <test-method status="FAIL" signature="userFullNameTest()[pri:0, instance:test_signIn.VerifyUserFullName@67117f44]" name="userFullNameTest" duration-ms="17811" started-at="2020-09-10T17:51:57Z" finished-at="2020-09-10T17:52:15Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Cannot locate an element using xpath=//*[@id='root']/div/div[2]/div/div[1]/div[2]/div/div/div/form/div[3]/button
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[@id='root']/div/div[2]/div/div[1]/div[2]/div/div/div/form/div[3]/button
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
@@ -75,25 +75,25 @@ Driver info: driver.version: RemoteWebDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFullNameTest -->
-        <test-method status="FAIL" signature="afterEachTestMethod()[pri:0, instance:test_signIn.VerifyUserFullName@67117f44]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2020-09-01T19:08:28Z" finished-at="2020-09-01T19:08:28Z">
+        <test-method status="FAIL" signature="afterEachTestMethod()[pri:0, instance:test_signIn.VerifyUserFullName@67117f44]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2020-09-10T17:52:15Z" finished-at="2020-09-10T17:52:15Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[chrome not reachable
-  (Session info: chrome=85.0.4183.83)
+  (Session info: chrome=85.0.4183.102)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MAHFUJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 04623f292c27ffcaed7da8f45d03b403]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MAHFUJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 41df300ce0802cb478dd4da5195e014e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=85.0.4183.83)
+  (Session info: chrome=85.0.4183.102)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MAHFUJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 04623f292c27ffcaed7da8f45d03b403
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MAHFUJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 41df300ce0802cb478dd4da5195e014e
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -140,44 +140,44 @@ Session ID: 04623f292c27ffcaed7da8f45d03b403
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- test_signIn.VerifyUserFullName -->
     </test> <!-- Running Smoke suite in firefox -->
-    <test name="Running Smoke suite in Chrome" duration-ms="15939" started-at="2020-09-01T23:08:32Z" finished-at="2020-09-01T23:08:48Z">
+    <test name="Running Smoke suite in Chrome" duration-ms="16915" started-at="2020-09-10T21:52:19Z" finished-at="2020-09-10T21:52:36Z">
       <class name="test_register.NewRegisterTest">
-        <test-method status="SKIP" signature="beforeEachTestMethod()[pri:0, instance:test_register.NewRegisterTest@1c53fd30]" name="beforeEachTestMethod" is-config="true" duration-ms="0" started-at="2020-09-01T19:08:48Z" finished-at="2020-09-01T19:08:48Z">
+        <test-method status="SKIP" signature="beforeEachTestMethod()[pri:0, instance:test_register.NewRegisterTest@1c53fd30]" name="beforeEachTestMethod" is-config="true" duration-ms="0" started-at="2020-09-10T17:52:36Z" finished-at="2020-09-10T17:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTestMethod -->
-        <test-method status="SKIP" signature="registerWithNewEmailTest()[pri:0, instance:test_register.NewRegisterTest@1c53fd30]" name="registerWithNewEmailTest" duration-ms="0" started-at="2020-09-01T19:08:48Z" finished-at="2020-09-01T19:08:48Z">
+        <test-method status="SKIP" signature="registerWithNewEmailTest()[pri:0, instance:test_register.NewRegisterTest@1c53fd30]" name="registerWithNewEmailTest" duration-ms="0" started-at="2020-09-10T17:52:36Z" finished-at="2020-09-10T17:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerWithNewEmailTest -->
-        <test-method status="SKIP" signature="afterEachTestMethod()[pri:0, instance:test_register.NewRegisterTest@1c53fd30]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2020-09-01T19:08:48Z" finished-at="2020-09-01T19:08:48Z">
+        <test-method status="SKIP" signature="afterEachTestMethod()[pri:0, instance:test_register.NewRegisterTest@1c53fd30]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2020-09-10T17:52:36Z" finished-at="2020-09-10T17:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- test_register.NewRegisterTest -->
       <class name="test_signIn.VerifyUserFullName">
-        <test-method status="PASS" signature="startTestSuite()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]" name="startTestSuite" is-config="true" duration-ms="37" started-at="2020-09-01T19:07:51Z" finished-at="2020-09-01T19:07:51Z">
+        <test-method status="PASS" signature="startTestSuite()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]" name="startTestSuite" is-config="true" duration-ms="39" started-at="2020-09-10T17:51:39Z" finished-at="2020-09-10T17:51:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestSuite -->
-        <test-method status="PASS" signature="beforeEachTestMethod()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]" name="beforeEachTestMethod" is-config="true" duration-ms="8004" started-at="2020-09-01T19:08:32Z" finished-at="2020-09-01T19:08:40Z">
+        <test-method status="PASS" signature="beforeEachTestMethod()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]" name="beforeEachTestMethod" is-config="true" duration-ms="8268" started-at="2020-09-10T17:52:19Z" finished-at="2020-09-10T17:52:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTestMethod -->
-        <test-method status="FAIL" signature="userFullNameTest()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]" name="userFullNameTest" duration-ms="7682" started-at="2020-09-01T19:08:40Z" finished-at="2020-09-01T19:08:47Z">
+        <test-method status="FAIL" signature="userFullNameTest()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]" name="userFullNameTest" duration-ms="4629" started-at="2020-09-10T17:52:27Z" finished-at="2020-09-10T17:52:32Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Cannot locate an element using xpath=//*[@id='root']/div/div[2]/div/div[1]/div[2]/div/div/div/form/div[3]/button
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[@id='root']/div/div[2]/div/div[1]/div[2]/div/div/div/form/div[3]/button
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
@@ -214,25 +214,25 @@ Driver info: driver.version: RemoteWebDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFullNameTest -->
-        <test-method status="FAIL" signature="afterEachTestMethod()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2020-09-01T19:08:47Z" finished-at="2020-09-01T19:08:47Z">
+        <test-method status="FAIL" signature="afterEachTestMethod()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2020-09-10T17:52:32Z" finished-at="2020-09-10T17:52:32Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[chrome not reachable
-  (Session info: chrome=85.0.4183.83)
+  (Session info: chrome=85.0.4183.102)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MAHFUJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55313}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2a7d440f06626e8411cb2e483e226a21]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MAHFUJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56052}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b47ce5ca0afb7763188e55f2b7770642]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=85.0.4183.83)
+  (Session info: chrome=85.0.4183.102)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'MAHFUJ-1B5SPLO', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MAHFUJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55313}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2a7d440f06626e8411cb2e483e226a21
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MAHFUJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56052}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b47ce5ca0afb7763188e55f2b7770642
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -277,7 +277,7 @@ Session ID: 2a7d440f06626e8411cb2e483e226a21
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-09-01T19:08:48Z" finished-at="2020-09-01T19:08:48Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:test_signIn.VerifyUserFullName@5f150435]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-09-10T17:52:36Z" finished-at="2020-09-10T17:52:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
