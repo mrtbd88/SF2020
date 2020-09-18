@@ -21,7 +21,7 @@ public class LoginWithValidCredentialUsingEmail extends Config{
 		//driver.findElement(By.xpath(signIn.emailLoc)).sendKeys(signIn.emailValue); // OR
 		typeByCss (signIn.emailLoc, signIn.emailValue); // re-use the method/function
 	
-		// click Next button after entering the email
+		// click Next button after entering the email.
 		clickByXpath (signIn.nextButtonLoc);
 		
 		typeByXpath (signIn.passwordLoc, signIn.passValue);
